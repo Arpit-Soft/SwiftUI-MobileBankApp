@@ -11,6 +11,7 @@
 		2DE187F126DE975B004DDEE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE187F026DE975B004DDEE0 /* ContentView.swift */; };
 		2DE187F326DE9760004DDEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE187F226DE9760004DDEE0 /* Assets.xcassets */; };
 		2DE187F626DE9760004DDEE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE187F526DE9760004DDEE0 /* Preview Assets.xcassets */; };
+		2DE1880126DE9FFE004DDEE0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE1880026DE9FFE004DDEE0 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2DE187F226DE9760004DDEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DE187F526DE9760004DDEE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2DE187F726DE9760004DDEE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DE1880026DE9FFE004DDEE0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		2DE187ED26DE975B004DDEE0 /* SwiftUI-MobileBankApp */ = {
 			isa = PBXGroup;
 			children = (
+				2DE187FF26DE9FF4004DDEE0 /* View */,
 				2DE187EE26DE975B004DDEE0 /* SwiftUI_MobileBankAppApp.swift */,
 				2DE187F026DE975B004DDEE0 /* ContentView.swift */,
 				2DE187F226DE9760004DDEE0 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				2DE187F526DE9760004DDEE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2DE187FF26DE9FF4004DDEE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2DE1880026DE9FFE004DDEE0 /* CardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DE187F126DE975B004DDEE0 /* ContentView.swift in Sources */,
+				2DE1880126DE9FFE004DDEE0 /* CardView.swift in Sources */,
 				2DE187EF26DE975B004DDEE0 /* SwiftUI_MobileBankAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
